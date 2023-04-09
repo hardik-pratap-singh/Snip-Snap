@@ -10,8 +10,6 @@ export default function Postform() {
   const navigate = useNavigate()
   const handlecancel  = () =>{
     navigate('/home')
-
-
   }
 
   const [data   , setdata] = useState("")
