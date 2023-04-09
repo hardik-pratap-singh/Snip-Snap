@@ -11,9 +11,7 @@ const ProfileLeftBar = () => {
         setfollow(false)
     }
 
-
-
-
+    
     return (
         <div><div className="profileviewcont">
             <div className="proacccard">
