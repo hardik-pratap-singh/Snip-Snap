@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 78px;
+
+}
+.navlinks{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: -55px;
+}
+.headname{
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(27, 5, 10);
+}
+
+.headimgname{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.headimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 40px; cursor: pointer;
+}
+.profilepic img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px; cursor: pointer;
+
+}
+.logoutpic img{
+    width: 45px;
+    height: 40px;
+    margin-right: 20px; cursor: pointer;
+
+}
+.uploadbtn img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+.regbtn{
+    background-color: rgb(132, 11, 126);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: -3px;
+    
+    
+}

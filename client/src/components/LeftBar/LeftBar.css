@@ -1,0 +1,77 @@
+.homefollow{
+    margin: 20px;
+    width: 150px;
+}
+
+.homeicon{
+    display: flex;
+}
+.homeicon img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.homeicon h3{
+   margin-top: 13px;
+   cursor: pointer;
+}
+
+.followingk{
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.followingk img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.followingk h3{
+   margin-top: 13px;
+   cursor: pointer;
+}
+.topaccrender{
+    margin: 20px;
+
+}
+.topaccrender h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.topacchead{
+    margin-bottom: 10px;
+  
+}
+.topacccard{
+    display: flex;
+    width: 150px;
+    cursor: pointer;
+}
+
+.topacccard img{
+    width: 37px;
+    height: 37px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.topacccard h3{
+    font-size: small;
+    margin:4px;
+    margin-left: 2px;
+}
+.topaccusername{
+    margin-left: 8px;
+}
+
+.topacccard p{
+    color: rgb(108, 106, 106);
+    margin-left: 2px;
+}

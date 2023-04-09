@@ -1,0 +1,58 @@
+.parent {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card2 {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .image_profile {
+    text-align: center;
+  }
+  
+  .image_profile img {
+    margin-top: 20px;
+  }
+  
+  .Profile_info {
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .image_profile {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .both_card {
+      flex-direction: column-reverse;
+    }
+  
+    .main-body .col-lg-4 {
+      margin-bottom: 20px;
+    }
+  
+    .main-body .col-lg-8 {
+      order: -1;
+    }
+    .btn_div_edit{
+        margin-right: 1px;
+    }
+  }
+
+  .btn{
+    border: 0px;
+    background: -webkit-linear-gradient(right,#fa4299, #a445b2);
+  }
+
+  .both_card{
+    margin-top: 50px;
+  }
+  
+  

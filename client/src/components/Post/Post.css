@@ -1,0 +1,162 @@
+
+.profilepicpost img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    
+}
+
+.commentcont{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: max-content;
+}
+.commentprofilepic{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+
+}
+.commentprofilepic img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 10px;
+
+}
+.commentprofilepic h6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 10px;
+    font-size: smaller;
+
+}
+.commentcontent{
+    font-size: smaller;
+    margin-left: 10px;
+}
+.commhead{
+    margin-left: 30px;
+}
+
+.commententer{
+    margin-left: 30px;
+}
+.commbtn{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #b609b3;
+    color: white;
+    border: none;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+    
+}
+.commententer textarea{
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    font-size: smaller;
+    padding: 5px;
+}
+
+.postcardcont{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.postcard{
+    display: flex;
+    background-color: #e4e4e4;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    height: max-content;
+}
+.reactplayerpost{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.post-owner-info{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px;
+    margin-left: 20px;
+    width: 281.25px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: smaller;
+
+}
+.post-owner-info h3{
+    font-size: 20px;
+}
+.postcaption{
+    width: 281.25px;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: large;
+}
+.post-actions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+    width: 281.25px;
+
+}
+.post-action{
+    display: flex;
+}
+
+.post-action img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    
+}
+
+.post-action p{
+    margin-top: 9px;
+}
+.postcardusername{
+    color: rgb(79, 79, 79);
+}

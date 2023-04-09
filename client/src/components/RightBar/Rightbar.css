@@ -1,0 +1,42 @@
+.suggacc h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    
+
+}
+
+.suggacc{
+    border: solid darkgray 0.5px;
+    border-radius: 10px;
+    width: 220px;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    
+}
+.topacccard{
+    display: flex;
+    width: 150px;
+    
+}
+
+.topacccard img{
+    width: 37px;
+    height: 37px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.topacccard h3{
+    font-size: small;
+    margin:4px;
+    margin-left: 2px;
+}
+.topaccusername{
+    margin-left: 8px;
+}
+
+.topacccard p{
+    color: rgb(108, 106, 106);
+    margin-left: 2px;
+}

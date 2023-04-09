@@ -1,0 +1,37 @@
+.proacccard{
+    width: 150px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.proacccard img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.proacccard h3{
+    margin:4px;
+    margin-left: 2px;
+}
+.topaccusername{
+    margin-left: 8px;
+}
+
+.proacccard p{
+    color: rgb(108, 106, 106);
+    margin-left: 10px;
+    font-size: large;
+}
+
+.proaccstats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+    width: 281.25px;
+
+}

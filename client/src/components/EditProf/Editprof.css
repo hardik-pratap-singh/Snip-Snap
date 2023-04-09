@@ -1,0 +1,135 @@
+/* Adjust the font size and line-height for smaller screens */
+@media screen and (max-width: 576px) {
+    label, input, textarea {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .image_profile {    
+    margin-top: 30px;
+    margin-right: 0px;
+      }  
+      .right_card{
+    margin-top: 28px;
+      }
+  }
+  
+  /* Adjust the column sizes for medium screens */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .image_profile {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  
+    .card_edit {
+      flex: 0 0 66.67%;
+      max-width: 66.67%;
+    }
+    #edit_uploadimage{
+        padding-left: 92px;
+    }
+  }
+  
+  /* Adjust the column sizes for larger screens */
+  @media screen and (min-width: 992px) {
+    input:focus-visible{
+        border-color: #fa4299;
+      }
+    .image_profile_edit {
+      flex: 0 0 25%;
+      max-width: 25%;
+      position: relative;
+      top: 178px;
+      left: 118px;
+    }
+
+    #edit_uploadimage{
+        margin-left: 92px;
+        margin-top: 25px;
+    }
+
+    .right_card{
+        position: relative;
+    left: 147px;
+    top: 174px;
+    }
+
+    .img_card{
+        height: 122px;
+    }
+  
+    .card_edit {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .btn_div_edit{
+        margin-right: 1px;
+    }
+  }
+  
+  /* Center the image and label horizontally */
+  .edit_profile_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Set the width and height of the image */
+  .img_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Style the form button */
+  .btn_div_edit button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  label{
+    font-family: cursive;
+  }
+  .btn{
+    border: 0px;
+    background: -webkit-linear-gradient(right,#fa4299, #a445b2);
+  }
+ 
+  input:focus-visible{
+    border-color: #fa4299;
+  }
+  .my_boxing_box_editprof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.editprocom label{
+  margin-right: 10px;
+
+
+}
+.editprocom input{
+  margin-right: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1.5px solid #000000;
+  outline: none;
+  padding-left: 10px;
+
+
+}
+.editprocom textarea{
+  margin-right: 10px;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  border: 1.5px solid #000000;
+  outline: none;
+  padding-left: 10px;
+
+
+}
