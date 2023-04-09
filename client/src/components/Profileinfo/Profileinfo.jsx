@@ -134,7 +134,7 @@ export default function Profilef() {
                                 <h2>{x.video}</h2>
                             </div> */}
                             <div className="card my-3 mx-3 col-md-4 class102" style={{ width: "12rem" , marginRight : "50px" }}>
-                                <Post video={x.video} desc = {x.desc} /> 
+                                <Post video={x.video} desc = {x.desc} likes = {x.likes} comments = {x.comments} /> 
                             </div>
 
                             {/* <ReactPlayer url={`${x.video}`} playing={true} loop={true} />

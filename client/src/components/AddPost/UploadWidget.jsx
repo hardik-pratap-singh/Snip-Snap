@@ -26,7 +26,7 @@ export default function App(props) {
         .then((data) => {
           setVid(data.url);
           func(data.url);
-          console.log(data);
+          // console.log(data);
         })
         .catch((err) => {
           console.log(err);

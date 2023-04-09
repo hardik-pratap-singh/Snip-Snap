@@ -171,6 +171,15 @@ const resetPassword = async (req, res, next) => {
   }
 };
 
+const gettheusername = async (req ,res) => {
+    let id = req.params.id ; 
+
+    const user = await User.findById(id) ; 
+    if(!user) res.status(404).json({"err"  : "not Found"})  ; 
+
+    res.status(200).json({"success" : true , username : user.username}); 
+}
+
 const sendAuth = (user, statusCode, res) => {
   return res.status(statusCode).json({
     success: true,
@@ -182,4 +191,6 @@ const sendAuth = (user, statusCode, res) => {
   });
 };
 
-module.exports = { register, login, forgotPassword, resetPassword };
+
+
+module.exports = { register, login, forgotPassword, resetPassword , gettheusername  };
