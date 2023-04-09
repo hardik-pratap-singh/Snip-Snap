@@ -19,6 +19,7 @@
     margin-left: 10px;
     font-family: 'Pacifico', cursive;
     color: rgb(27, 5, 10);
+    cursor: pointer;
 }
 
 .headimgname{
@@ -30,6 +31,7 @@
 }
 
 .headimg{
+
     width: 45px;
     height: 45px;
     border-radius: 50%;

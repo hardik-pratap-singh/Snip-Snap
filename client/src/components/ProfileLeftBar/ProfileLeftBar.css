@@ -35,3 +35,25 @@
     width: 281.25px;
 
 }
+.proaccbio{
+    margin: 15px;
+    margin-left: 20px;
+    width: 281.25px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.follunfoll button{
+    background-color: #fff;
+    color: rgb(132, 11, 126);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(132, 11, 126) ;
+    border-radius: 5px;
+    margin: 0px auto;
+    display: block;
+}
