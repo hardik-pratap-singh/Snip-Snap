@@ -33,6 +33,10 @@ const Navbar = () => {
         localStorage.removeItem('token') ; 
         navigate('/') 
     }
+    const handlehome = () =>{
+        navigate('/')
+    }
+    
 
 
 
@@ -41,7 +45,7 @@ const Navbar = () => {
 
         <div className="navbar">
 
-            <div className="headimgname">
+            <div onClick={handlehome} className="headimgname">
 
                 <div>
                     <img className='headimg' src={headimg}></img>
