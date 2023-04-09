@@ -7,6 +7,7 @@ const getallposts = async (req, res) => {
         const posts = await Posts.find()
         const count = posts.length;
         res.status(200).json({
+            "success":true,
             count,
             posts
         })

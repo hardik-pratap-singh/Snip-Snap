@@ -68,7 +68,7 @@ export default function App(props) {
         .then((res) => res.json())
         .then((data) => {
           setVid(data.url);
-          func(vid);
+          func(data.url);
           console.log(data);
         })
         .catch((err) => {
