@@ -34,6 +34,15 @@ const Navbar = () => {
         navigate('/') 
     }
 
+    const handlesnipsnap = () => {
+        if(localStorage.getItem('token')){
+            navigate('/home') ; 
+        }
+        else{
+            navigate('/') ;
+        }
+    }
+
 
 
     return (
@@ -41,14 +50,13 @@ const Navbar = () => {
 
         <div className="navbar">
 
-            <div className="headimgname">
+            <div className="headimgname" style={{cursor : "pointer"}} onClick={handlesnipsnap}>
 
                 <div>
                     <img className='headimg' src={headimg}></img>
                 </div>
                 <div>
-
-                    <h1 className='headname'>SnipSnap</h1>
+                    <h1 className='headname'  >SnipSnap</h1>
                 </div>
             </div>
 

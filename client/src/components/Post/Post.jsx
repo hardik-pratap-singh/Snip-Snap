@@ -11,6 +11,10 @@ import shareimg from '../../assets/share.png'
 
 const Post = (props) => {
   const [Comment , setComment] = useState(false)
+
+  const {video , desc} = props ; 
+
+
   const commentclickhandler = () =>{
     setComment(!Comment)
   }
@@ -34,7 +38,6 @@ const Post = (props) => {
             </div>
           </div>
           <div className='reactplayerpost'>
-
             <ReactPlayer url={`${props.vid}`} width={281.25} height={500} controls={true} playing={true} loop={true} style={{backgroundColor:'black'}}/>
           </div>
           <div className="postcaption">

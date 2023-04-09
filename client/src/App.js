@@ -28,7 +28,7 @@ function App() {
         <Router>
 
           <Routes>
-
+      
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/login" element={<Login />}></Route>
             <Route exact path="/register" element={<SignUp />}></Route>
@@ -37,8 +37,6 @@ function App() {
             <Route path="/upload" element={<Postform />}></Route>
             <Route path="/ownprofile" element={<Profileinfo />}></Route>
             <Route path="/editprofile" element={<Editprof />}></Route>
-
-
 
           </Routes>
         </Router>
