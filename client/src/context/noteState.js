@@ -8,9 +8,12 @@ const NoteState = (props) => {
     const [userposts , setuserposts] = useState([]) ; 
 
     useEffect(() => {
+
         localStorage.getItem('token') && getDetails();
         localStorage.getItem('token') && getMyPosts(); 
     });
+
+    
 
     const getDetails = async () => {
         const response = await fetch("http://localhost:5000/api/user/getmyinfo", {
