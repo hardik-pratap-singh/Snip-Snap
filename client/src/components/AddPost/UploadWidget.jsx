@@ -1,45 +1,3 @@
-// import { useEffect, useRef } from "react";
-
-// const UploadWidget = () => {
-//   const cloudinaryRef = useRef();
-//   const WidgetRef = useRef();
-//   useEffect(() => {
-//     cloudinaryRef.current = window.cloudinary;
-//     WidgetRef.current = cloudinaryRef.current.createUploadWidget(
-//       {
-//         cloudName: "dsowfsgld",
-//         uploadPreset: "mkgv6ayn"
-//       },
-//       function (error, result) {}
-//     );
-//   }, []);
-
-//   return <button onClick={() => WidgetRef.current.open()}>Upload Video</button>;
-// };
-
-// export default UploadWidget;
-
-// import { useEffect, useRef } from "react";
-
-// const UploadWidget = () => {
-//   const cloudinaryRef = useRef();
-//   const WidgetRef = useRef();
-//   useEffect(() => {
-//     cloudinaryRef.current = window.cloudinary;
-//     WidgetRef.current = cloudinaryRef.current.createUploadWidget(
-//       {
-//         cloudName: "dsowfsgld",
-//         uploadPreset: "mkgv6ayn"
-//       },
-//       function (error, result) {}
-//     );
-//   }, []);
-
-//   return <button onClick={() => WidgetRef.current.open()}>Upload Video</button>;
-// };
-
-// export default UploadWidget;
-
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 
@@ -51,7 +9,6 @@ export default function App(props) {
   const postDetails = (pic) => {
     if (pic === undefined) {
       alert("Not Found");
-
       return;
     }
 
@@ -68,7 +25,7 @@ export default function App(props) {
         .then((res) => res.json())
         .then((data) => {
           setVid(data.url);
-          func(vid);
+          func(data.url);
           console.log(data);
         })
         .catch((err) => {

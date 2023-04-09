@@ -62,6 +62,7 @@
 .commententer{
     margin-left: 30px;
 }
+
 .commbtn{
     margin-left: 20px;
     margin-bottom: 10px;
@@ -88,9 +89,10 @@
     display: flex;
     background-color: #ffffff;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     border-radius: 10px;
     height: max-content;
+    /* border: 2px solid red ; */
 }
 
 .postcard{
@@ -160,3 +162,5 @@
 .postcardusername{
     color: rgb(79, 79, 79);
 }
+
+

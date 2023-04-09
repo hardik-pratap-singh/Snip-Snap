@@ -9,8 +9,12 @@ import commentimg from '../../assets/comment.png'
 import shareimg from '../../assets/share.png'
 
 
-const Post = () => {
+const Post = (props) => {
   const [Comment , setComment] = useState(false)
+
+  const {video , desc} = props ; 
+
+
   const commentclickhandler = () =>{
     setComment(!Comment)
   }
@@ -35,7 +39,7 @@ const Post = () => {
           </div>
           <div className='reactplayerpost'>
 
-            <ReactPlayer url='https://www.youtube.com/shorts/FmEutqoWA3o' width={281.25} height={500} />
+            <ReactPlayer url={`${video}`} width={281.25} height={500} />
           </div>
           <div className="postcaption">
 
