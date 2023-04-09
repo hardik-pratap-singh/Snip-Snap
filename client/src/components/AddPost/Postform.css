@@ -12,7 +12,7 @@
     margin-bottom: 20px;
     width: 500px;
     padding: 30px;
-    height: 600px;
+    height: 650px;
     border: 1px solid #ccc;
   }
   
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
+    height: 300px;
     border: 1px solid #ccc;
   }
 
@@ -29,12 +29,13 @@
   }
   
   .postformuploadbtn {
-    margin-top: 20px;
-    margin-left: 430px;
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 30px;
   }
   
   .postformcaptiondiv {
-    margin-top: 120px;
+    margin-top: 60px;
   }
   
   .postformcaptionlabel {
@@ -106,5 +107,25 @@
     }
 
 
+  }
+
+  .upload_widget_react_player{
+    position: relative;
+    top: -43px;
+    left: 0;
+  }
+
+  .postformuploaddiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    /* border: 1px solid #ccc; */
+    margin-top: 20px;
+  }
+  .upload_widget_input_vid{
+    position: relative;
+    left: 53px;
+    top: 29px;
   }
   
