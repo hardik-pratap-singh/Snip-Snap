@@ -38,13 +38,12 @@ const Post = (props) => {
             </div>
           </div>
           <div className='reactplayerpost'>
-
-            <ReactPlayer url={`${video}`} width={281.25} height={500} />
+            <ReactPlayer url={`${props.vid}`} width={281.25} height={500} controls={true} playing={true} loop={true} style={{backgroundColor:'black'}}/>
           </div>
           <div className="postcaption">
 
             <h5>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque non aliquid praesentium est volup
+              {props.desc}
             </h5>
           </div>
           <div className="post-actions" >

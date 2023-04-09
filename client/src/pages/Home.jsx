@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
 import './Home.css'
 import gifdance from '../assets/homedance.gif'
@@ -6,6 +6,9 @@ import Navbar from '../components/Navbar/Navbar'
 
 
 const Home = () => {
+
+    
+
     return (
         <> <Navbar/>
         <div className='homevid'>
