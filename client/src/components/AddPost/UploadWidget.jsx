@@ -35,8 +35,9 @@ export default function App(props) {
         .then((data) => {
           setVid(data.url);
           func(data.url);
-          console.log(data);
+     
           setLoading(false)
+
         })
         .catch((err) => {
           console.log(err);
